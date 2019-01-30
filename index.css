@@ -74,11 +74,14 @@ section:nth-child(even) {
 }
 
 .about-proffessional {
-  margin-top: 40px;
+  margin-top: 80px;
 }
 
 .about-description {
-  font-size: 1.2em;
+  font-size: 1em;
+  text-align: left;
+  padding: 70px;
+  padding-top: 30px;
 }
 
 .app-description {
