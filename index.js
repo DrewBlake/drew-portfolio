@@ -4,6 +4,6 @@ $(".js-scroll").on("click", function( e ) {
 
     $("body, html").animate({ 
         scrollTop: $( $(this).attr('href') ).offset().top 
-    }, 700);
+    }, 800);
     
 });
