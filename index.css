@@ -49,9 +49,9 @@ nav {
   z-index: 10;
 }
 
-/*header {
-  padding: 7% 0;
-}*/
+header {
+  margin-bottom: 0;
+}
 
 section {
   min-height: 200px;
@@ -78,13 +78,14 @@ section:nth-child(even) {
 }
 
 .about-description {
-  font-size: 1em;
+  font-size: 0.8em;
   text-align: left;
-  padding: 70px;
-  padding-top: 20px;
+  padding: 10px;
+  padding-top: 15px;
 }
 
 .app-description {
+  font-size: 0.8em;
   width: 70%;
   margin-right: auto;
   margin-left: auto;
@@ -115,8 +116,17 @@ a:hover {
   text-decoration: underline;
 }
 
+.project-header {
+  margin-bottom: 0;
+}
+
 #about, #projects {
+  margin-top: -60px;
   padding-top: 70px;
+}
+
+#about {
+  margin-top: -20px;
 }
 
 #projects a {
@@ -161,7 +171,15 @@ a:hover {
     margin-bottom: 0px;
   }
 
-}
+  .about-description {
+    font-size: 1em;
+    /*padding: 40px;*/
+  }
+
+  .app-description {
+    font-size: 1em;
+
+  }
 
 @media only screen and (min-width: 700px) {
 
@@ -172,6 +190,11 @@ a:hover {
     margin-top: 10px;
     margin-bottom: 0px;
   }  
+
+  .about-description {
+    padding: 70px;
+    padding-top: 20px;
+  }
 
 }
 
