@@ -2,29 +2,6 @@
   box-sizing: border-box;
 }
 
-/*header, #about {
-  background: url(https://images.unsplash.com/photo-1516383740770-fbcc5ccbece0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60)
-  no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;  
-  min-height: 500px;
-  height: 100%;
-  border-radius: 5px;
-  margin: 0;
-  margin-top: 100px;
-}
-
-#about {
-  margin-top: 20px;
-}
-
-/*.middle-display {
-  min-height: 300px;
-  margin-top: 40px;
-}*/
-
 body {
   font-family: Poppins,
   sans-serif; 
@@ -55,13 +32,8 @@ header {
 
 section {
   min-height: 200px;
-  padding: 3% 0;}
- /* background-color: #bbb;
+  padding: 3% 0;
 }
-
-section:nth-child(even) {
-  background-color: #ddd;
-}*/
 
 .about-proffessional, .about-personal {
   background-color: rgba(242, 242, 242, 0.8);
@@ -94,12 +66,9 @@ section:nth-child(even) {
 .links {
   margin-top: 0px;
   margin-bottom: 0px;
-  /*float: right;*/
   margin-right: 10px;
   padding: 5px;
-  
   text-align: center;
-
 }
 
 .nav li {
@@ -135,10 +104,8 @@ a:hover {
   padding: 20px;
 }
 
-
 .my-name {
   text-align: center;
-  /*padding-left: 30px;*/
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -150,8 +117,7 @@ a:hover {
   width: 70%;
   border-radius: 5px;
   border-color: black;
-  border: 2px black solid;
-  
+  border: 2px black solid; 
 }
 
 @media only screen and (min-width: 600px) {
@@ -173,12 +139,10 @@ a:hover {
 
   .about-description {
     font-size: 1em;
-    /*padding: 40px;*/
   }
 
   .app-description {
     font-size: 1em;
-
   }
 
 @media only screen and (min-width: 700px) {
